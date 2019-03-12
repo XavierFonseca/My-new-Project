@@ -17,3 +17,29 @@ header {
 header {
     text-align: center;
 }
+.services i{
+    
+    font-size:30px;
+    padding:25px 20px;
+    
+}
+.services span{
+    width:200px;
+    display: inline-block;
+}
+.col-md-3{
+   text-align: center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
