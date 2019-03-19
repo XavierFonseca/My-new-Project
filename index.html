@@ -6,13 +6,127 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--style-->
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body> 
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Webpage</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Creator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Purpose of Website</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+     
+     <header>
+         <h1> BlueMoon</h1>
+         <p> <i>Welcome to the company BlueMoon</i></p>
+         <button type ="button" class="btn btn-warning">Welcome</button>
+     </header>
+     
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+        <img src="..." class="img-fluid" alt="Responsive image">
+      
+      <section class = "services container"> 
+        <h1>Services</h1>
+        <p>This is a service header.</p>
+        <hr>
+      <div class = "row">
+          <div class ="col-md-3">
+            <i class="fas fa-desktop"></i>
+            <h3><span><b>Web Design</b></span></h3>
+              <p>Why hello there future Programmer!</p>
+         </div>
+         <div class = "col-md-3">
+            <i class="fas fa-phone"></i>
+           <h3><span><b>Media Outlet</b></span></h3>
+             <p> You can use this program as a source to talk to other perople.</p>
+         </div>
+        </div> 
+        <div class = "row">
+            <div class = "col-md-3">
+                <i class="fab fa-accessible-icon"></i>
+                <h3><span><b>Disability Accesibility</b></span></h3>
+                 <p> You can use this program as a source to talk to other perople.</p>
+            </div>
+           <div class = "col-md-3"> 
+               <i class="fas fa-address-book"></i>
+               <h3><span><b>Note Taking</b></span></h3>
+                <p>Download SVGPerfect for when you want to use just one icon as a vector on the desktop or in your own icon workflow.</p>
+           </div>
+          </div>
+        </section>
+        
+         <section class ="team">
+          <h1 class = "team">Team for BlueMoon</h1>
+          <div class = "container">
+           <div class = "row">
+               <div class = "col-md-3">
+                   <img class="team-img" src="Geralt.jpg" width=200xp ></img>
+                    <h3><span><b>Jim - CEO</b></span></h3>
+                        <p> Is the head of Bluemoon Industries.</p>
+                   </div>
+               <div class = "col-md-3">
+                  <img class="team-img" src="ezio.jpeg" width=200px height=250xp></img>
+                   <h3><span><b>Timmy - Manager</b></span></h3>
+                         <p>Updates and manages the smaller side projects of Bluemoon.</p>
+                    </div>
+                    <div class = "col-md-3">
+                   <img class="team-img" src="marcus.jpg" width=200px></img>
+                   <h3><span><b>Robert - Team Leader</b></span></h3>
+                         <p>Leads most of the employees through their daily tasks and projects.</p>
+                     </div>
+                     <div class = "col-md-3">
+                   <img class="team-img" src="firekeeper.jpg" width=200px></img>
+                   <h3><span><b>Vanessa - Secretary</b></span></h3>
+                         <p>Leads the teams finaces and bussiness distribution.</p>
+                      </div>
+                    </section>
+                  <section class = "contact container">
+                     <div class = "row">
+                     <div class = "col-md-6">
+                        <div class="input-group input-group-lg">
+                          <div class="input-group-prepend">
+                          .<i class="fas fa-envelope-square"></i>
+                              </div>
+                                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                                </div>
+                              <div class="input-group input-group-lg">
+                          <div class="input-group-prepend">
+                           <i class="fas fa-phone"></i>
+                              </div>
+                                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                                </div>
+                                <div class="input-group input-group-lg">
+                          <div class="input-group-prepend">
+                            <i class="fas fa-user contact-i"></i>
+                              </div>
+                                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                                </div>
+                        </div> 
+                     <div class = "col-md-6"> 
+                         world
+                       </div>
+                     </div>
+                  </section> 
+             
 </body>
 
 </html>
